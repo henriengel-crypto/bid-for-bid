@@ -21,7 +21,7 @@ function pickOne(
   criteria: (r: RecipeSearchItem) => boolean
 ): RecipeSearchItem | undefined {
   const candidates = pool.filter((r) => !used.has(r.slug) && criteria(r));
-  if (candidates.length === 0) return pool.find((r) => !used.has(r));
+  if (candidates.length === 0) return pool.find((r) => !used.has(r.slug));
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
