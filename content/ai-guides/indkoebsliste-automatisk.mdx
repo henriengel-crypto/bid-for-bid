@@ -1,0 +1,91 @@
+---
+title: Automatisk indkøbsliste fra opskrifter
+description: Aldrig mere dobbeltkøb af løg eller glemt fløde. Giv AI dine opskrifter og få en klar, grupperet indkøbsliste der er klar til butikken på to minutter.
+category: indkob
+tags:
+  - indkøb
+  - madplan
+  - organisering
+problem: Indkøbslisten tager uforholdsmæssig lang tid at lave manuelt. Man løber skaleringsregnestykker i hovedet, glemmer halvdelen af ingredienserne og ender med at stå i butikken med telefonen op i opskriften.
+solution: Giv AI dine planlagte opskrifter – enten som navne eller som ingredienslister – og lad den samle, skalere og gruppere listen. Klar til at handle på.
+workflow:
+  - Beslut hvilke retter du laver i ugen (evt. brug madplan-guiden).
+  - Kopiér ingredienslisterne fra dine opskrifter ind i prompten.
+  - Alternativt: skriv bare retnavnene og lad AI generere standard-ingredienser.
+  - Brug Prompt 1 til at få listen grupperet og skaleret.
+  - Tjek om der er noget du allerede har hjemme og slet det fra listen.
+  - Kopiér den færdige liste til telefonen.
+publishedAt: "2024-10-05"
+prompts:
+  - label: Saml ingredienser fra opskrifter
+    text: |
+      Jeg skal lave disse retter i ugen til 4 personer (2 voksne + 2 børn):
+
+      1. [RET 1]
+      2. [RET 2]
+      3. [RET 3]
+      4. [RET 4]
+      5. [RET 5]
+
+      Lav en komplet indkøbsliste. Kombinér mængder for ingredienser der bruges i flere retter.
+
+      Gruppér i:
+      - Grønt og frugt
+      - Mejeri og æg
+      - Kød og fisk
+      - Kolonial og tørvarer
+      - Krydderier
+  - label: Skaler indkøbsliste
+    text: |
+      Denne opskrift er til 4 personer. Jeg skal bruge den til [ANTAL] personer.
+
+      [INDSÆT INGREDIENSLISTE]
+
+      Skalér mængderne og giv mig en ren liste. Brug praktiske enheder (fx ikke 1.75 dl – skriv nærmeste 0.5 dl).
+  - label: Hvad mangler jeg?
+    text: |
+      Jeg har disse ingredienser derhjemme:
+      [LISTE]
+
+      Jeg skal lave disse retter denne uge:
+      [LISTE]
+
+      Hvad mangler jeg at købe? Giv kun det jeg faktisk mangler.
+  - label: Budgetvenlig substitution
+    text: |
+      Disse ingredienser i min opskrift er enten dyre eller svære at finde:
+      [LISTE]
+
+      Hvad kan jeg erstatte dem med? Giv billigere alternativer der stadig fungerer i retten.
+example:
+  input: |
+    Retter i ugen: dahl, pasta med aubergine, kyllingelår med rodfrugter, torsk med rosenkål.
+  output: |
+    Grønt og frugt
+    - 2 auberginer
+    - 500 g rosenkål
+    - 4 gulerødder
+    - 400 g kartofler
+    - 4 løg
+    - 1 rødløg
+    - 8 fed hvidløg
+    - 2 citroner
+    - frisk ingefær
+    - koriander og persille
+
+    Mejeri og æg
+    - 2 dl fløde (18%)
+    - 1 lille yoghurt naturel
+
+    Kød og fisk
+    - 600 g torsk (filet)
+    - 4 kyllingelår
+
+    Kolonial
+    - 300 g røde linser
+    - 1 dåse kokosmælk
+    - 400 g pasta (rigatoni)
+    - 2 dåser hakkede tomater
+    - olivenolie
+    - grøntsagsbouillon
+---

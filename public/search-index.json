@@ -1,0 +1,398 @@
+{
+  "recipes": [
+    {
+      "slug": "aeblemuffins-sod-kartoffel",
+      "title": "Æble- og sødkartoffelmuffins",
+      "description": "Saftige muffins med revet æble og sødkartoffel. Ikke supersnilde, ikke for søde. Børnene spiser dem til morgenmad, i madkassen og efter skole. Det er faktisk den højeste anbefaling.",
+      "tags": [
+        "bornevenligt",
+        "rester-madpakke"
+      ],
+      "dietary": [
+        "vegetar"
+      ],
+      "cuisine": "dansk",
+      "mealType": "snack",
+      "ingredientNames": [
+        "sødkartoffel (ca. 200 g)",
+        "æbler",
+        "hvedemel",
+        "bagepulver",
+        "kanel",
+        "salt",
+        "brun farin",
+        "æg",
+        "neutral olie (fx solsikkeolie)",
+        "mælk",
+        "vaniljesukker"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": true,
+      "season": [
+        "efterår",
+        "hele året"
+      ],
+      "timeTotal": 40,
+      "image": null
+    },
+    {
+      "slug": "aubergine-katsu-vibe",
+      "title": "Paneret aubergine med miso-mayo og ris",
+      "description": "Japansk-inspireret hverdagsret der bruger auberginen som kødets stedfortræder. Sprød panering, sød miso-mayo og frisk kål giver noget at bide i – og det er restemad ingen vil kende som restemad.",
+      "tags": [
+        "vegetar",
+        "rester-madpakke",
+        "bornevenligt"
+      ],
+      "dietary": [
+        "vegetar"
+      ],
+      "cuisine": "japansk-inspireret",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "aubergine",
+        "rasp (panko foretrækkes)",
+        "æg",
+        "mel",
+        "salt",
+        "neutral olie til stegning",
+        "sushiris eller basmatiris",
+        "spidskål eller isbergsalat",
+        "mayonnaise",
+        "hvid miso",
+        "riseddike",
+        "honning",
+        "sojasauce",
+        "sesamfrø"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": false,
+      "season": [
+        "sommer",
+        "efterår",
+        "hele året"
+      ],
+      "timeTotal": 40,
+      "image": null
+    },
+    {
+      "slug": "groentsagsskuffe-suppe",
+      "title": "Groft grøntsagssuppe (tøm skuffen)",
+      "description": "En suppe uden opskrift. Tag det du har – gulerødder på vej ud, en løs selleri, halvt et kålhoved – og kog det til en varm, fyldig suppe med bouillon og timian. Den er aldrig den samme to gange.",
+      "tags": [
+        "rester-madpakke",
+        "vegetar",
+        "one-pot-ovn",
+        "hurtig-hverdagsmad"
+      ],
+      "dietary": [
+        "vegetar",
+        "vegansk",
+        "glutenfri"
+      ],
+      "cuisine": "dansk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "gulerødder",
+        "kartofler",
+        "løg",
+        "hvidløg",
+        "kål eller selleri",
+        "grøntsagsbouillon",
+        "olivenolie",
+        "tørret timian",
+        "salt",
+        "sort peber",
+        "citron",
+        "linser eller kikærter (valgfrit)"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": true,
+      "season": [
+        "efterår",
+        "vinter"
+      ],
+      "timeTotal": 35,
+      "image": null
+    },
+    {
+      "slug": "one-pan-kylling",
+      "title": "One-pan kyllingelår med rodfrugter og citron",
+      "description": "Alt i én pande, alt i ovnen. Kyllingelårene bliver saftige og sprøde på samme tid, rodfrugterne karameliserer i stegesaften og duften fra ovnen er svær at stå imod.",
+      "tags": [
+        "one-pot-ovn",
+        "hurtig-hverdagsmad",
+        "bornevenligt"
+      ],
+      "dietary": [],
+      "cuisine": "dansk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "kyllingelår (med ben og skind)",
+        "gulerødder",
+        "kartofler",
+        "rødløg",
+        "hvidløg",
+        "citron",
+        "olivenolie",
+        "paprika (røget)",
+        "tørret timian",
+        "salt",
+        "sort peber",
+        "hvidvin eller kyllingebouillon"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": true,
+      "season": [
+        "efterår",
+        "vinter"
+      ],
+      "timeTotal": 55,
+      "image": null
+    },
+    {
+      "slug": "ottolenghi-groent-tahin",
+      "title": "Ovngrønt med tahini og yoghurt",
+      "description": "Bløde ovnstegte grøntsager på et lag kold yoghurt med tahini, ristet hvidløg og sprøde kikærter. Den slags ret der forsvinder fra fadet før man er klar.",
+      "tags": [
+        "vegetar",
+        "one-pot-ovn"
+      ],
+      "dietary": [
+        "vegetar",
+        "glutenfri"
+      ],
+      "cuisine": "mellemøstlig",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "blomkål",
+        "røde peberfrugter",
+        "rødløg",
+        "kikærter (dåse)",
+        "olivenolie",
+        "spidskommen",
+        "paprika (røget)",
+        "salt",
+        "yoghurt (naturel, fed)",
+        "tahini",
+        "citron",
+        "hvidløg",
+        "koriander eller persille",
+        "pistacienødder"
+      ],
+      "kidFriendly": false,
+      "leftoverFriendly": true,
+      "season": [
+        "efterår",
+        "vinter",
+        "forår"
+      ],
+      "timeTotal": 45,
+      "image": null
+    },
+    {
+      "slug": "ovnbagt-torsk-rosenkaal",
+      "title": "Ovnbagt torsk med rosenkål, nødder og kartofler",
+      "description": "En ret der tager sig selv. Torsken hviler på et bund af karameliserede rosenkål og saltede nødder, kartoflerne bliver sprøde i ovnen og saucen samler det hele.",
+      "tags": [
+        "fisk-skaldyr",
+        "one-pot-ovn",
+        "hurtig-hverdagsmad"
+      ],
+      "dietary": [
+        "fisk",
+        "glutenfri"
+      ],
+      "cuisine": "dansk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "torsk (filet, uden skind)",
+        "rosenkål",
+        "kartofler",
+        "valnødder",
+        "olivenolie",
+        "salt",
+        "sort peber",
+        "citron",
+        "fløde (18%)",
+        "sennep (grovkornet)",
+        "persille"
+      ],
+      "kidFriendly": false,
+      "leftoverFriendly": true,
+      "season": [
+        "efterår",
+        "vinter"
+      ],
+      "timeTotal": 35,
+      "image": null
+    },
+    {
+      "slug": "pasta-aubergine-tomat",
+      "title": "Pasta med aubergine og tomat",
+      "description": "Klassisk siciliansk pasta alla Norma i en mere hverdagsvenlig udgave. Auberginen steges til den er smelter, tomatsaucen simrer og pecorino giver det hele kant.",
+      "tags": [
+        "italien",
+        "vegetar",
+        "hurtig-hverdagsmad"
+      ],
+      "dietary": [
+        "vegetar"
+      ],
+      "cuisine": "italiensk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "pasta (rigatoni eller penne)",
+        "aubergine",
+        "hakkede tomater (dåse)",
+        "løg",
+        "hvidløg",
+        "olivenolie",
+        "tørret oregano",
+        "chiliflager",
+        "salt",
+        "pecorino eller parmesan",
+        "basilikum"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": true,
+      "season": [
+        "sommer",
+        "efterår",
+        "hele året"
+      ],
+      "timeTotal": 35,
+      "image": null
+    },
+    {
+      "slug": "polenta-med-svampe",
+      "title": "Blød polenta med sauterede svampe og parmesan",
+      "description": "Polenta er den italienske hverdagsmad der ikke fylder nok i vores køkkener. Cremet og blød som mashed potato, toppet med saftige svampe og timian. Ferdig på 25 minutter.",
+      "tags": [
+        "italien",
+        "vegetar",
+        "hurtig-hverdagsmad"
+      ],
+      "dietary": [
+        "vegetar",
+        "glutenfri"
+      ],
+      "cuisine": "italiensk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "polentagryn (hurtigkogende)",
+        "vand",
+        "mælk",
+        "smør",
+        "parmesan",
+        "blandede svampe",
+        "hvidløg",
+        "olivenolie",
+        "frisk timian",
+        "smør",
+        "salt",
+        "sort peber"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": false,
+      "season": [
+        "efterår",
+        "vinter"
+      ],
+      "timeTotal": 25,
+      "image": null
+    },
+    {
+      "slug": "rod-linse-dahl",
+      "title": "Rød linse-dahl med ingefær og kokosmælk",
+      "description": "En dahl der er mæt, billig og kan laves på under 30 minutter. Kokosmælken giver den cremethed, ingefæren varme. Børnene spiser den gerne med ris og lidt yoghurt.",
+      "tags": [
+        "vegetar",
+        "hurtig-hverdagsmad",
+        "bornevenligt"
+      ],
+      "dietary": [
+        "vegetar",
+        "vegansk",
+        "glutenfri"
+      ],
+      "cuisine": "indisk",
+      "mealType": "aftensmad",
+      "ingredientNames": [
+        "røde linser",
+        "kokosmælk (400 ml)",
+        "vand eller grøntsagsbouillon",
+        "løg",
+        "hvidløg",
+        "frisk ingefær",
+        "olivenolie eller kokosolie",
+        "spidskommen",
+        "gurkemeje",
+        "korianderfrø (stødt)",
+        "chili (tørret)",
+        "salt",
+        "citron",
+        "koriander",
+        "basmatiris",
+        "yoghurt (naturel)"
+      ],
+      "kidFriendly": true,
+      "leftoverFriendly": true,
+      "season": [
+        "hele året",
+        "vinter"
+      ],
+      "timeTotal": 30,
+      "image": null
+    }
+  ],
+  "guides": [
+    {
+      "slug": "fermentering-startpakke",
+      "title": "Fermentering startpakke med AI som guide",
+      "description": "Fermentering virker uoverskueligt – det er det ikke. Med AI som opslagsværk og fejlfindingsassistent kommer du i gang med kimchi, kombucha eller sauerkraut uden at slå slå op i tre bøger og et forum.",
+      "category": "fermentering",
+      "tags": [
+        "fermentering",
+        "fermentering-sylt",
+        "begynder",
+        "kimchi"
+      ]
+    },
+    {
+      "slug": "indkoebsliste-automatisk",
+      "title": "Automatisk indkøbsliste fra opskrifter",
+      "description": "Aldrig mere dobbeltkøb af løg eller glemt fløde. Giv AI dine opskrifter og få en klar, grupperet indkøbsliste der er klar til butikken på to minutter.",
+      "category": "indkob",
+      "tags": [
+        "indkøb",
+        "madplan",
+        "organisering"
+      ]
+    },
+    {
+      "slug": "madplan-15-min",
+      "title": "Madplan på 15 minutter med AI",
+      "description": "Stop med at bruge en time på at beslutte hvad I skal spise. Her er den workflow der giver dig en hel uges madplan på under 15 minutter – inklusive indkøbsliste.",
+      "category": "madplan",
+      "tags": [
+        "madplan",
+        "tidsbesparelse",
+        "uge-rutine"
+      ]
+    },
+    {
+      "slug": "rester-ny-ret",
+      "title": "Fra rester til ny ret på 5 minutter",
+      "description": "Det du har i køleskabet fredag eftermiddag er faktisk en ret. Du skal bare have hjælp til at se det. Her er den workflow der forvandler rester til noget familien spiser med glæde.",
+      "category": "rester",
+      "tags": [
+        "rester",
+        "madspild",
+        "hurtig-hverdagsmad",
+        "kreativitet"
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-11T14:24:40.161Z"
+}

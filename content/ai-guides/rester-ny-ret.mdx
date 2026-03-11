@@ -1,0 +1,68 @@
+---
+title: Fra rester til ny ret på 5 minutter
+description: Det du har i køleskabet fredag eftermiddag er faktisk en ret. Du skal bare have hjælp til at se det. Her er den workflow der forvandler rester til noget familien spiser med glæde.
+category: rester
+tags:
+  - rester
+  - madspild
+  - hurtig-hverdagsmad
+  - kreativitet
+problem: Resterne fra tirsdagens dahl og torsdag ovnkylling ender i skraldespanden fredag fordi ingen gider tænke over hvad de kan blive til. Det er madspild, og det er let at undgå.
+solution: Beskriv hvad du har, og lad AI foreslå 3 konkrete retter du kan lave. Med et par spørgsmål om hvad der ellers er i skabene, ender du med en plan der tager 20 minutter at eksekvere.
+workflow:
+  - Tag et hurtigt kig i køleskab og skabe – hvad er der?
+  - Skriv ingredienserne ned (brug Prompt 1).
+  - Vælg et af forslagene og bed om fuld opskrift med Prompt 2.
+  - Tjek om du mangler noget og gå evt. en tur i nærbutikken efter ét nøgleelement.
+  - Lav retten – typisk under 30 min.
+publishedAt: "2024-10-15"
+prompts:
+  - label: Hvad kan jeg lave?
+    text: |
+      Jeg har disse rester og ingredienser i køleskabet:
+      [INGREDIENSLISTE]
+
+      Foreslå 3 konkrete retter jeg kan lave til aften til 2 voksne og 2 børn (børn spiser relativt normalt, ikke for stærkt).
+
+      For hver ret: skriv navn, hvad den bruger fra min liste, og hvad evt. mangler.
+  - label: Giv mig opskriften
+    text: |
+      Lav en simpel opskrift på [RET] til 4 personer.
+
+      Ingredienser jeg har at arbejde med:
+      [LISTE]
+
+      Hold det enkelt – max 6 trin. Fortæl hvis der er noget vigtigt jeg ikke må springe over.
+  - label: Hvad passer til det her?
+    text: |
+      Jeg har [INGREDIENS/REST] der skal bruges. Hvad passer det til?
+
+      Giv 5 ideer – fra det meget enkle (bruges som tilbehør) til det mere kreative (ny ret). Markér hvad der passer til børn.
+  - label: Forvandle til madpakke
+    text: |
+      Jeg har disse rester fra i går:
+      [RESTER]
+
+      Hvad kan jeg pakke ned som madkasse til et barn på [ALDER] år? Giv 2-3 ideer med hvad der evt. tilføjes.
+example:
+  input: |
+    Rester: halvt kylling (koldt), kogte kartofler, lidt fløde, et løg, 2 gulerødder.
+    I skabene: pasta, dåsetomater, pasta, bouillonterninger.
+  output: |
+    3 forslag:
+
+    1. Kyllingefrikassé
+    Bruger: kylling, kartofler, fløde, løg, gulerødder
+    Mangler: intet
+    Tid: 20 min
+
+    2. Kyllingesuppe med grøntsager
+    Bruger: kylling, gulerødder, løg
+    Tilsæt: bouillon, lidt pasta
+    Tid: 25 min
+
+    3. Kylling-hash på panden
+    Bruger: kylling i tern, kartofler i tern, løg
+    Server med: spejlæg
+    Tid: 15 min
+---

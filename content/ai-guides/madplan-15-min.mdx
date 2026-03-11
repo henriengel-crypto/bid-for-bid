@@ -1,0 +1,77 @@
+---
+title: Madplan på 15 minutter med AI
+description: Stop med at bruge en time på at beslutte hvad I skal spise. Her er den workflow der giver dig en hel uges madplan på under 15 minutter – inklusive indkøbsliste.
+category: madplan
+tags:
+  - madplan
+  - tidsbesparelse
+  - uge-rutine
+problem: Det tager for lang tid at planlægge hvad familien skal spise i den kommende uge. Det ender med de samme fem retter igen og igen, eller dyre takeaway-beslutninger mandag aften fordi ingen har planlagt noget.
+solution: En struktureret AI-samtale der på 15 minutter genererer en varieret ugeplan baseret på det du faktisk har lyst til, hvad der er i køleskabet, og om børnene spiser det.
+workflow:
+  - Åbn din foretrukne AI-assistent (ChatGPT, Claude eller Gemini).
+  - Start med at give kontekst – hvem spiser med, eventuelle præferencer og begrænsninger.
+  - Brug Prompt 1 til at generere en ugeplan. Tjek den hurtigt igennem.
+  - Juster med Prompt 2 hvis noget ikke passer (fx skift mandag ud).
+  - Brug Prompt 3 til at få indkøbslisten samlet og grupperet.
+  - Kopiér listen til Notes eller din foretrukne app og gå i butikken.
+publishedAt: "2024-10-01"
+prompts:
+  - label: Basis-ugeplan
+    text: |
+      Lav en madplan for 5 hverdage (mandag-fredag) til en familie med 2 voksne og 2 børn (6 og 9 år).
+
+      Krav:
+      - 1 fiskeret
+      - 1 vegetarret
+      - 1 pastaeller risret
+      - 1 one-pot eller ovnret
+      - 1 hurtig hverdagsret (max 30 min)
+      - Varieret – undgå samme proteintype to dage i træk
+      - Alt skal kunne laves på hverdage
+
+      Format: Dag | Ret | Tid | Kommentar
+  - label: Juster én dag
+    text: |
+      Skift [DAG] ud i madplanen. Den nuværende ret er [RET].
+
+      Krav til den nye ret:
+      - Max [TID] minutter
+      - [EVENTUELT: børnevenlig / vegetar / bruger rester fra [RET]]
+      - Passer til årstiden
+
+      Giv 2 alternativer jeg kan vælge imellem.
+  - label: Indkøbsliste fra madplan
+    text: |
+      Lav en komplet indkøbsliste til denne ugeplan:
+
+      [INDSÆT DIN UGEPLAN HER]
+
+      Familien er 2 voksne + 2 børn.
+
+      Gruppér listen sådan:
+      - Grønt og frugt
+      - Mejeri og æg
+      - Kød og fisk
+      - Kolonial og tørvarer
+      - Krydderier og sauce
+      - Andet
+
+      Kombinér mængder hvor det giver mening (fx "3 løg i alt").
+  - label: Madplan med det jeg har
+    text: |
+      Jeg har disse ingredienser der skal bruges denne uge:
+      [LISTE OVER INGREDIENSER]
+
+      Lav en madplan for 3-4 hverdage der bruger dem op. Tilføj hvad der mangler som indkøb.
+      Familien er 2 voksne + 2 børn (børn er lidt kræsne med stærk mad).
+example:
+  input: |
+    Prompt 1 med krav om fisk, vegetar, pasta, one-pot og hurtig ret.
+  output: |
+    Mandag | Rød linse-dahl med ris | 30 min | Vegetar, børnevenlig
+    Tirsdag | Ovnbagt torsk med rosenkål og kartofler | 35 min | Fisk
+    Onsdag | Pasta med aubergine og tomat | 30 min | Vegetar, fint som rester
+    Torsdag | One-pan kylling med rodfrugter | 55 min | Start inden kl. 17.30
+    Fredag | Pandekager med rester fra dahlen | 20 min | Hurtig, børnene elsker det
+---

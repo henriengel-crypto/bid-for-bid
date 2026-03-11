@@ -1,0 +1,64 @@
+---
+title: Fermentering startpakke med AI som guide
+description: Fermentering virker uoverskueligt – det er det ikke. Med AI som opslagsværk og fejlfindingsassistent kommer du i gang med kimchi, kombucha eller sauerkraut uden at slå slå op i tre bøger og et forum.
+category: fermentering
+tags:
+  - fermentering
+  - fermentering-sylt
+  - begynder
+  - kimchi
+problem: Fermentering er svært at komme i gang med fordi man ikke ved hvad der er normalt, hvad der er farligt og hvornår det er klar. Bøgerne er detaljerede men ikke responsive – de kan ikke svare på dit specifikke spørgsmål om den hvide ting på overfladen.
+solution: Brug AI som en interaktiv guide der kan svare på præcis dit spørgsmål om din batch på dit tidspunkt. Kombiner med en simpel startopskrift og du har din første vellykkede fermentering inden for 5 dage.
+workflow:
+  - Vælg hvad du vil fermentere (sauerkraut er nemmest, kimchi er sjovere).
+  - Brug Prompt 1 til at få en komplet startopskrift med mængder.
+  - Køb ingredienser og begynd. Notér dato og observation.
+  - Brug Prompt 2 hvis noget ser mærkeligt ud undervejs.
+  - Smag og juster med Prompt 3 når du er usikker på om det er klar.
+  - Brug Prompt 4 til at finde ud af hvad du kan lave med det færdige produkt.
+publishedAt: "2024-11-05"
+prompts:
+  - label: Start sauerkraut (nybegynder)
+    text: |
+      Jeg vil lave sauerkraut for første gang. Jeg har:
+      - 1 mellemstort hvidkålshoved
+      - Salt
+      - Et rent patentglas (1 liter)
+
+      Giv mig en trin-for-trin opskrift der er idiotsikker. Inkluder: mængder, hvad jeg skal holde øje med, og hvornår det er klar.
+  - label: Fejlfinding under fermenteringen
+    text: |
+      Jeg er i gang med [RET] dag [ANTAL].
+
+      Jeg observerer: [BESKRIV HVAD DU SER – fx hvid belægning, bobler, lugt, farve]
+
+      Er det normalt? Skal jeg gøre noget?
+  - label: Er det klar?
+    text: |
+      Min [RET] har fermenteret i [ANTAL] dage ved ca. [TEMPERATUR] grader.
+
+      Det smager [BESKRIV SMAGEN – fx surt, salt, fladt, meget surt].
+      Lugten er [BESKRIV].
+
+      Er det klar til at spise, eller skal jeg vente mere? Hvad leder jeg efter?
+  - label: Hvad laver jeg med det?
+    text: |
+      Jeg har hjemmelavet [FERMENTERET PRODUKT]. Hvad bruger jeg det til?
+
+      Giv 5 konkrete ideer – fra det enkle (server direkte til) til det lidt mere kreative.
+      Familiens aldersgruppe er voksne og børn fra 6 år.
+example:
+  input: |
+    "Jeg er i gang med sauerkraut dag 4. Der er hvid belægning på overfladen. Er det farligt?"
+  output: |
+    Det lyder som kahm-gær – en ufarlig hvid-grålig belægning der dannes på overfladen af fermenterede grøntsager.
+
+    Det er ikke skimmel og ikke farligt. Tegn på at alt er normalt:
+    - Lugten er syrlig og frisk (ikke råddent)
+    - Kålen under overfladen er hvid eller let gul
+    - Der bobler let
+
+    Gør dette: skum belægningen af med en ren ske. Sørg for at kålen stadig er under saltlagen. Fortsæt fermenteringen.
+
+    Hvornår skal du være bekymret: grøn, blå eller sort skimmel, ubehagelig råddenlugtsn, eller slimede grøntsager.
+---
