@@ -61,13 +61,13 @@ export function ShoppingListModal({ initialItems, onClose }: ShoppingListModalPr
       onClick={(e) => e.target === e.currentTarget && onClose()}
       role="dialog"
       aria-modal="true"
-      aria-label="Indkobsliste"
+      aria-label="Indkøbsliste"
     >
       <div className="bg-white rounded-3xl w-full max-w-lg max-h-[85vh] flex flex-col shadow-2xl animate-fade-in">
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-cream-200">
           <div>
-            <h2 className="font-serif text-xl text-earth-900">Indkobsliste</h2>
+            <h2 className="font-serif text-xl text-earth-900">Indkøbsliste</h2>
             <p className="text-sm text-earth-500 mt-0.5">
               {remaining} varer tilbage
             </p>
@@ -76,14 +76,14 @@ export function ShoppingListModal({ initialItems, onClose }: ShoppingListModalPr
             <button
               onClick={handleCopy}
               className="btn-secondary text-xs px-3 py-2"
-              aria-label="Kopiér indkobsliste"
+              aria-label="Kopiér indkøbsliste"
             >
               {copied ? "Kopieret!" : "Kopiér"}
             </button>
             <button
               onClick={onClose}
               className="btn-ghost p-2 rounded-xl"
-              aria-label="Luk indkobsliste"
+              aria-label="Luk indkøbsliste"
             >
               <CloseIcon />
             </button>
@@ -114,7 +114,7 @@ export function ShoppingListModal({ initialItems, onClose }: ShoppingListModalPr
                         checked={item.bought}
                         onChange={() => toggle(item.id)}
                         className="h-4 w-4 rounded accent-spice cursor-pointer shrink-0"
-                        aria-label={`Marker ${item.item} som kobt`}
+                        aria-label={`Marker ${item.item} som købt`}
                       />
                       <span className={cn("text-sm flex-1 leading-snug", item.bought && "line-through text-earth-500")}>
                         {item.amount && (

@@ -39,7 +39,7 @@ export default function AIPage() {
           </h1>
           <p className="text-earth-600 leading-relaxed">
             Ikke AI-hype. Konkrete genveje der sparer tid til det der tæller.
-            Her finder du workflows, prompts og eksempler til madplan, indkob og mere.
+            Her finder du workflows, prompts og eksempler til madplan, indkøb og mere.
           </p>
         </div>
 

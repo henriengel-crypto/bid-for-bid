@@ -21,18 +21,18 @@ export default function OmPage() {
           <section>
             <h2 className="font-serif text-xl text-earth-900 mb-3">Hvad er det?</h2>
             <p className="text-earth-700 leading-relaxed">
-              En samling opskrifter tilpasset en travl hverdag med born – plus konkrete
-              tips til at bruge AI til madplan, indkob og rester. Alt er testet i et
-              rigtigt kokken med rigtige born og urealistiske ambitioner.
+              En samling opskrifter tilpasset en travl hverdag med børn – plus konkrete
+              tips til at bruge AI til madplan, indkøb og rester. Alt er testet i et
+              rigtigt køkken med rigtige børn og urealistiske ambitioner.
             </p>
           </section>
 
           <section>
             <h2 className="font-serif text-xl text-earth-900 mb-3">Filosofien</h2>
             <p className="text-earth-700 leading-relaxed">
-              God mad behovr ikke vaere kompliceret. De bedste hverdagsretter er dem
-              der kan laves med det man har, der giver rester til naeste dag, og som
-              born rent faktisk spiser. Det er dem du finder her.
+              God mad behøver ikke være kompliceret. De bedste hverdagsretter er dem
+              der kan laves med det man har, der giver rester til næste dag, og som
+              børn rent faktisk spiser. Det er dem du finder her.
             </p>
           </section>
 
@@ -40,7 +40,7 @@ export default function OmPage() {
             <h2 className="font-serif text-xl text-earth-900 mb-3">AI i hverdagen</h2>
             <p className="text-earth-700 leading-relaxed">
               AI-sektionen er ikke for dem der vil automatisere alt. Den er for dem
-              der vil bruge 15 minutter pa madplan i stedet for 45 – og stadig have
+              der vil bruge 15 minutter på madplan i stedet for 45 – og stadig have
               lyst til at lave maden. Konkrete prompts, eksempler der virker,
               ingen techsnak.
             </p>

@@ -110,7 +110,7 @@ export function WeeklyPlan({ recipes }: WeeklyPlanProps) {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
           <div>
             <h2 className="font-serif text-2xl md:text-3xl text-earth-900 mb-1">
-              Ugeplan pa autopilot
+              Ugeplan på autopilot
             </h2>
             <p className="text-earth-600 text-sm">
               5 middage med variation: fisk, vegetar, pasta, one-pot og restemad.
@@ -150,7 +150,7 @@ export function WeeklyPlan({ recipes }: WeeklyPlanProps) {
                 className="btn-sage"
               >
                 <ShoppingBagIcon />
-                Lav indkobsliste
+                Lav indkøbsliste
               </button>
             </div>
           </>
